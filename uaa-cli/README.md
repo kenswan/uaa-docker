@@ -1,14 +1,15 @@
 # UAA-CLI
 
-### Build Image
+## Build
 
 `docker build -t uaa-cli .`
 
-### Run Image
+## Run
 
 `docker run --rm -it uaa-cli bash`
 
-## Test Image
+## Test
+
 <i>While in the terminal run below command to ensure uaac installed</i>
 
 `uaac -v`

@@ -1,14 +1,18 @@
 # UAA-Server
 
-### Build Image
+## Build
 
 `docker build -t uaa-docker .`
 
-### Run Image
+## Run
 
 `docker run -d -it -p 8080:8080 --name uaa-server uaa-docker`
 
-## Test Image
+## Navigate
+
+`docker exec -it uaa-server bash`
+
+## Test
 
 Running below command
 ```powershell
@@ -44,7 +48,3 @@ Should yield response similar to
     "timestamp": "2021-02-04T19:51:58+0000"
 }
 ```
-
-### Navigate Directory
-
-`docker exec -it uaa-server bash`
